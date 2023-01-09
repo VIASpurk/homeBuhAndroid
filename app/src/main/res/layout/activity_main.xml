@@ -32,6 +32,7 @@
         android:layout_width="188dp"
         android:layout_height="109dp"
         android:layout_marginTop="16dp"
+        android:onClick="onClickActivityExpences"
         android:text="@string/buttonExpenses"
         app:layout_constraintEnd_toEndOf="@+id/buttonCheck"
         app:layout_constraintStart_toStartOf="@+id/buttonCheck"

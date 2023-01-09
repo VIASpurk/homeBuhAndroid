@@ -7,32 +7,59 @@
     tools:context=".ActivityExpences">
 
     <TableLayout
-        android:layout_width="409dp"
-        android:layout_height="601dp"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="130dp">
+        android:layout_width="410dp"
+        android:layout_height="667dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
-                android:layout_width="214dp"
+                android:id="@+id/textExpenses11"
+                android:layout_width="145dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
-                android:layout_width="93dp"
+                android:id="@+id/textExpenses12"
+                android:layout_width="85dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses1"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textExpenses31"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/textExpensesExpensesActivity" />
+
+            <TextView
+                android:id="@+id/textExpenses32"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/textSumExpensesActivity" />
+
+            <Button
+                android:id="@+id/buttonExpenses3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -41,22 +68,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses41"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses42"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses4"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -65,22 +92,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses51"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses52"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses5"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -89,22 +116,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses61"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses62"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses6"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -113,22 +140,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses71"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses72"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses7"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -137,22 +164,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses81"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses82"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses8"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -161,22 +188,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses91"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses92"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses9"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -185,22 +212,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses101"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses102"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses10"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -209,22 +236,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses111"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses112"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses11"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -233,22 +260,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses121"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses122"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses12"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -257,22 +284,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses131"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses132"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />/>
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses13"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -281,22 +308,22 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses141"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses142"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />/>
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses14"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -305,22 +332,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses151"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses152"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
+            />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses15"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 
@@ -329,70 +357,23 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textExpenses161"
                 android:layout_width="214dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textExpensesExpensesActivity" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textExpenses162"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:hint="@string/textSumExpensesActivity" />
+            />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/buttonExpenses16"
                 android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
-                android:textSize="10dp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="214dp"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
-
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="93dp"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
-                android:textSize="10dp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="214dp"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
-
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="93dp"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:text="Подробнее"
+                android:layout_height="40dp"
+                android:text="@string/buttonExpensesActivityText"
                 android:textSize="10dp" />
         </TableRow>
 

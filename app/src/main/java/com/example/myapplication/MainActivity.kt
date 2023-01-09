@@ -1,7 +1,9 @@
 package com.example.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.viewbinding.ViewBinding
 import com.example.myapplication.databinding.ActivityMainBinding
 
@@ -23,4 +25,11 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
     }
+
+    fun onClickActivityExpences(view : View){
+
+        val intent = Intent(this, ActivityExpences::class.java)
+        startActivity(intent)
+    }
 }
+

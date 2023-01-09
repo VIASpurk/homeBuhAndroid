@@ -3,4 +3,7 @@
     <string name="buttonQRText">Отсканировать чек</string>
     <string name="buttonCheckText">Добавить чек в ручную</string>
     <string name="buttonExpenses">Ваши Расходы</string>
+    <string name="buttonExpensesActivityText">Подробнее</string>
+    <string name="textExpensesExpensesActivity">ВидРасходов</string>
+    <string name="textSumExpensesActivity">Сумма</string>
 </resources>
