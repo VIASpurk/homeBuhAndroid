@@ -7,8 +7,8 @@
     tools:context=".ActivityExpences">
 
     <TableLayout
-        android:layout_width="410dp"
-        android:layout_height="667dp"
+        android:layout_width="412dp"
+        android:layout_height="621dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -34,8 +34,9 @@
                 android:id="@+id/buttonExpenses1"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
 
         </TableRow>
 
@@ -59,8 +60,9 @@
                 android:id="@+id/buttonExpenses3"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -83,8 +85,9 @@
                 android:id="@+id/buttonExpenses4"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -107,8 +110,9 @@
                 android:id="@+id/buttonExpenses5"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -131,8 +135,9 @@
                 android:id="@+id/buttonExpenses6"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -155,8 +160,9 @@
                 android:id="@+id/buttonExpenses7"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -179,8 +185,9 @@
                 android:id="@+id/buttonExpenses8"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -203,8 +210,9 @@
                 android:id="@+id/buttonExpenses9"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -227,8 +235,9 @@
                 android:id="@+id/buttonExpenses10"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -251,8 +260,9 @@
                 android:id="@+id/buttonExpenses11"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -275,8 +285,9 @@
                 android:id="@+id/buttonExpenses12"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -293,14 +304,15 @@
                 android:id="@+id/textExpenses132"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/textSumExpensesActivity" />/>
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
                 android:id="@+id/buttonExpenses13"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -317,14 +329,15 @@
                 android:id="@+id/textExpenses142"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/textSumExpensesActivity" />/>
+                android:hint="@string/textSumExpensesActivity" />
 
             <Button
                 android:id="@+id/buttonExpenses14"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -348,8 +361,9 @@
                 android:id="@+id/buttonExpenses15"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
         <TableRow
@@ -373,9 +387,19 @@
                 android:id="@+id/buttonExpenses16"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
+                android:onClick="onClickExpencesButon"
                 android:text="@string/buttonExpensesActivityText"
-                android:textSize="10dp" />
+                android:textSize="10sp" />
         </TableRow>
 
     </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="32dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
